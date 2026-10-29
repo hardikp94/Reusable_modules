@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+node_modules/
+build/
+dist/
+*.tgz
+*.whl
+*.sqlite3*
+.env
+.env.*
+!.env.example
+local-mail/
+private-files/
+.test-tmp/
