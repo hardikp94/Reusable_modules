@@ -1,0 +1,21 @@
+{
+  "name": "@reusable-foundations/react",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "API sessions, optional React identity UI and Razorpay checkout",
+  "exports": {
+    ".": "./src/react.js",
+    "./client": "./src/client.js",
+    "./checkout": "./src/checkout.js",
+    "./firebase": "./src/firebase.js",
+    "./styles.css": "./src/styles.css"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": ">=18 <20"
+  },
+  "license": "UNLICENSED"
+}

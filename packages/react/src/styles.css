@@ -1,0 +1,7 @@
+.rf-form { display:grid; gap:1rem; width:100%; max-width:28rem; box-sizing:border-box; }
+.rf-field { display:grid; gap:.35rem; min-width:0; }
+.rf-field input { font:inherit; padding:.65rem; min-width:0; box-sizing:border-box; width:100%; border:1px solid #64748b; border-radius:.35rem; }
+.rf-button { font:inherit; min-height:44px; padding:.6rem 1rem; cursor:pointer; border-radius:.35rem; border:1px solid #475569; }
+.rf-button:disabled { cursor:wait; opacity:.65; }
+.rf-button:focus-visible, .rf-field input:focus-visible { outline:3px solid #2563eb; outline-offset:3px; }
+dialog { max-width:min(90vw,36rem); box-sizing:border-box; }
